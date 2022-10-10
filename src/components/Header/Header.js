@@ -3,7 +3,17 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <h2>this is header</h2>
+            <div>
+
+                <h1>
+                    Time to surpress your own limit, right here right now.
+                </h1>
+
+            </div>
+            <div>
+             <img></img>
+
+            </div>
         </div>
     );
 };

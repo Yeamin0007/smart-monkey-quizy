@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './Topic.css'
 
 const Topic = ({topic}) => {
-    const {name, logo, total } = topic;
+    const {name, logo, total, id } = topic;
     return (
         <div className='border-2 rounded bg-slate-400'>
             <div>
@@ -16,7 +18,7 @@ const Topic = ({topic}) => {
                 </div>
 
                 <div>
-                    <button className='bg-blue-500 px-4 py-2 rounded text-white'>Start Quiz</button>
+                <Link to={`/${id}`}><button className='bg-blue-500 px-4 py-2 rounded text-white'>Start Quiz</button></Link>
                 </div>
             </div>
         </div>
