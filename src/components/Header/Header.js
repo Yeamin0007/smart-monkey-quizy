@@ -8,7 +8,7 @@ const Header = () => {
 
 
             
-            <div className= 'text-6xl'>
+            <div className= 'lg:text-6xl sm:text-xs md:text-lg '>
             <img className='px-60' src='https://smartmonkey.ca/wp-content/uploads/2020/11/Smart-Monkey-Logo-v2-square.png' alt='smart-monkey'></img>
 
                 <h1>
