@@ -8,7 +8,7 @@ const Topic = ({topic}) => {
     return (
         <div className='border-2 rounded bg-neutral-300'>
             <div>
-            <img className='topic-img' src={logo}></img>
+            <img className='topic-img' src={logo} alt='logo'></img>
             </div>
 
             <div className='flex justify-between px-5 py-4 items-center bg-slate-100'>

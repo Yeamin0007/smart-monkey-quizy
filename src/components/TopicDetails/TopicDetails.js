@@ -1,5 +1,5 @@
 import React from 'react';
-import { useActionData, useLoaderData } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 
 const TopicDetails = () => {
     const quiz = useLoaderData();
