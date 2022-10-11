@@ -25,7 +25,7 @@ const Question = ({ topicQuestion }) => {
         <div>
             <div className='border-2 bg-emerald-100 m-4'>
                 <div className='py-6 flex justify-center'>
-                    <h1 className='mr-24 md:text-2xl sm:text-sm'>Question: {question}</h1>
+                    <h1 className='md:mr-24 md:text-2xl sm:text-sm'>Question: {question}</h1>
                     <EyeIcon onClick={() => { handleIcon(correctAnswer) }} className="h-6 w-6 text-cyan-900 cursor-pointer"></EyeIcon>
                     <ToastContainer></ToastContainer>
                 </div>

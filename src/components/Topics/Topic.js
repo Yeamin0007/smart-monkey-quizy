@@ -12,13 +12,13 @@ const Topic = ({topic}) => {
             </div>
 
             <div className='flex justify-between px-5 py-4 items-center bg-slate-100'>
-                <div className='text-start font-bold'>
-                <p className='text-sky-400 text-2xl'>{name}</p>
+                <div className='text-start md:font-bold'>
+                <p className='text-sky-400 md:text-2xl'>{name}</p>
                 <p>Total Questions: {total}</p>
                 </div>
 
                 <div>
-                <Link to={`/${id}`}><button className='bg-sky-500 px-4 py-1 rounded text-white'>Start Quiz</button></Link>
+                <Link to={`/${id}`}><button className='bg-sky-500 sm:px-2 md:px-4 py-1 rounded text-white'>Start Quiz</button></Link>
                 </div>
             </div>
         </div>
