@@ -19,4 +19,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;<h2>this is blog</h2>
+export default Blog;
