@@ -23,10 +23,10 @@ const Statistics = () => {
     },[])
     return (
         <div>
-            <div className='text-3xl text-blue-600 font-bold my-10 underline underline-offset-4'>
+            <div className='md:text-3xl sm:text-xl text-orange-600 font-bold my-10 underline underline-offset-4'>
                 <h2>Average Quiz-Info Chart</h2>
             </div>
-            <ResponsiveContainer width="100%" height={500}>
+            <ResponsiveContainer width="95%" height={300}>
                 <BarChart
                     width={700}
                     height={400}
@@ -44,7 +44,7 @@ const Statistics = () => {
                     <Tooltip />
                     <Legend />
                     <CartesianGrid strokeDasharray="3 3" />
-                    <Bar dataKey="total" fill="#8884d8" background={{ fill: '#eee' }} />
+                    <Bar dataKey="total" fill="rgb(251 141 60" background={{ fill: '#eee' }} />
                 </BarChart>
             </ResponsiveContainer>
         </div>
